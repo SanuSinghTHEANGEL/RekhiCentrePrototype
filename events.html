@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events</title>
+  <style>
+    header h1 {
+      text-align: center;
+      background-color: skyblue;
+      color: white;
+      padding: 10px;
+    }
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .box img {
+      width: 100%;
+      max-width: 800px;
+      padding: 10px;
+    }
+    .description {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 10px;
+    }
+    footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+    }
+    footer img {
+      width: 70px;
+      vertical-align: middle;
+      padding: 5px;
+    }
+
+    @media (max-width: 480px) {
+      header h1{
+        font-size: 1.5rem;
+      }
+      .description h4{
+        font-size: 0.95rem;
+      }
+      footer{
+        font-size: 13px;
+      }
+      footer img{
+        width:50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EVENTS</h1>
+  </header>
+
+  <div class="box">
+    <img src="./images/event.png" alt="Lecture Event" />
+    <img src="./images/event 2.png" alt="Lecture Event 2" />
+  </div>
+
+  <div class="description">
+    <h4>Expert lecture on Science of Happiness by Shri Harikrisanji</h4>
+  </div>
+
+  <footer>
+    <img src="./images/sgsits-logo.png" alt="SGSITS Logo" />
+    <img src="./images/rekhi-logo.png" alt="Rekhi Foundation for Happiness Logo" />
+    <p><strong>Shri Govindram Seksaria Institute of Technology and Science (SGSITS), Indore</strong></p>
+    <p>23, Park Road, Indore, Madhya Pradesh - 452003</p>
+    <p style="margin-top: 15px;">Copyright © SGSITS 2025</p>
+  </footer>
+</body>
+</html>
